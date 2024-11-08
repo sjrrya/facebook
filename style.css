@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-color: #3b5998;
+    height: 70px;
+    position: relative;
+}
+.logo {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 17px;
+    left: 100px;
+    font-weight: lighter;
+}
+.logform {
+    position: absolute;
+    right: 90px;
+    top: 30px;
+}
+.logform input {
+    width: 120px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.logform label {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+#i1 {
+    margin-right: 10px;
+}
+#i2 {
+    margin-right: 7px;
+}
+.logform button {
+    padding: 2px 3px 2px 3px;
+    background-color: #3b5998;
+    color: white;
+    border: 1px solid;
+    border-color: white gray gray white;
+    font-size: 11px;
+}
+#l1,#l2 {
+    position: absolute;
+    top: -17px;
+    color: white;
+}
+.right {
+    position: relative;
+    width: 50%;
+}
+.content {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+.img {
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    height: 180px;
+    width: 100px;
+}
+.img img {
+    height: 250px;
+    width: 600px;
+    background-color: transparent;
+} 
+.fgt {
+    color: rgb(199, 199, 199);
+    position: absolute;
+    right: 80px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.left {
+    position: relative;
+}
+.leftr {
+    position: absolute;
+    right: 250px;
+    top: 20px;
+}
+.left h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+#p1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+ 
+#sname,#fname {
+    width: 122px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-color: rgb(192, 191, 191) rgb(224, 224, 224) rgb(224, 224, 224) rgb(192, 191, 191);
+    margin-bottom: 7.4px;
+    height: 17px;
+    
+}
+#mname,#pname {
+    width: 251px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-color: rgb(192, 191, 191) rgb(224, 224, 224) rgb(224, 224, 224) rgb(192, 191, 191);
+    height: 17px;
+    margin-bottom: 7.4px;
+}
+#pname {
+    border-top-width: 1px;
+    margin-bottom: 12px;
+}
+#bl {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.sct {
+    background-color: rgb(238, 234, 234);
+    border-radius: 2px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.gender {
+    margin-top: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+#genderlbl {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+#terms {
+    margin-top: 8px;
+    font-size: 9px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+.sgnbtn {
+    margin-top: 18px;
+    padding: 5px 43px 3px 43px;
+    background-color: #378b46;
+    border: 1px solid #41AE53;
+    border-radius: 6px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
